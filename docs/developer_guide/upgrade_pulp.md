@@ -47,8 +47,8 @@ times:
 7. Do the following within a short time frame:
      * Update Runcible requirement in katello.gemspec.
      * Build new Runcible rpm.
-     * Merge open PR for new Runcible requirement and any katello changes from the fixes from steps 4 & 5.
-     * Tag into these katello tags:
+     * Merge open PR for new Runcible requirement and any Katello changes from the fixes from steps 4 & 5.
+     * Tag into these Katello tags:
        * katello-thirdparty-pulp-rhel6
        * katello-thirdparty-pulp-rhel7
        * katello-thirdparty-pulp-fedoraXX:
@@ -62,7 +62,7 @@ times:
 
       Occasionally other dependencies (such as these https://github.com/pulp/pulp/tree/master/deps) are needed.
       If you kept track of what was updated as part of your upgrade and you noticed any new deps pulled in from
-      the pulp repositories, tag those in now.
+      the Pulp repositories, tag those in now.
      * In order for the client repo to be populated properly, tag the new pulp-rpm package into the following tags:
       * katello-nightly-rhel6
       * katello-nightly-rhel7
@@ -77,7 +77,7 @@ times:
             koji-katello tag-pkg katello-nightly-rhel7 pulp-rpm-2.4.0-0.23.beta.el6
             koji-katello tag-pkg katello-nightly-fedora19 pulp-rpm-2.4.0-0.23.beta.fc19
        ```
-8.  After 4 hours have passed and the new pulp rpms have hit the katello repos, perform a test install to ensure
+8.  After 4 hours have passed and the new Pulp rpms have hit the Katello repos, perform a test install to ensure
     there are no issues.
 
-9. Enjoy your new pulp build and congratulate yourself for making it this far!
+9. Enjoy your new Pulp build and congratulate yourself for making it this far!
