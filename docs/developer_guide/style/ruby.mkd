@@ -14,14 +14,14 @@ sidebar: sidebars/documentation.html
    * constants: `UPPER_SNAKE_CASE`
  * Use `{ }` for single-line blocks, `do end` for multi-lines blocks e.g.:
 
-```ruby
+~~~ ruby
 names.each { |name| puts name.upcase }
 
 names.each do |name|
   puts "Hello #{name}"
   puts "How are you?"
 end 
-```
+~~~
 
  * In regard to using parentheses with methods:
    * We recommend against using parentheses for methods and method definitions
